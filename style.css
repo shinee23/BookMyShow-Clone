@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+nav{
+  background-color: #333;
+  color: white;
+}
+#brandbook{
+  text-align: center;
+  padding:5px;
+  width:500px;
+  display:flex;
+}
+.navbar-brand {
+  color: #f84464;
+  font-weight: bold;
+  font-size:x-large;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: large;
+  margin-right: 20px;
+}
+.nav-link:hover{
+  color:#f84464;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+#logo{
+  height:50px;
+  margin-right: 0px;
+  border-radius:50%;
+}
+#animetext{
+border-bottom: 3px solid #f84464;
+border-top: 3px solid #f84464;
+margin-bottom: 30px;
+background-color: #333;
+}
+#movies-page h4 {
+  font-size: 20px; 
+  font-weight: 800;
+  color: #f84464; 
+  text-align: center; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  font-family: 'Arial', sans-serif; 
+  padding-top:10px;
+  position: relative; 
+  white-space: nowrap;
+  animation: slide 35s linear infinite; 
+  overflow: hidden; 
+  width: 100%; 
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%); 
+  }
+  50% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+
+.now-showing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movie-tile {
+  width: 300px;
+  height:500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #333;
+
+}
+
+.movie-tile img {
+  width: 100%;
+  height: 450px;
+  object-fit:cover; 
+}
+
+.movie-tile h3 {
+  margin: 0;
+  padding: 14px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #f5f5f5;
+  background-color: #333;
+}
+
+.details-page {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+  align-items: flex-start;
+}
+
+.details-page img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.details-info {
+  flex: 1;
+}
+
+.details-info h1,
+.details-info h4,
+.details-info p {
+  margin: 10px 0;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table th,.table td {
+  text-align: center;
+}
+.book-tickets {
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #f84464;
+  text-decoration: underline;}
+
+footer .container {
+  max-width: 1140px;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin: 10px 0;
+}
+
+footer .text-center p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+footer .col-md-4 {
+  flex: 1;
+  padding: 0 15px;
+}
+
+footer .col-md-4 h5 {
+  margin-bottom: 15px;
+}
+
+footer .col-md-4 ul li {
+  font-size: 0.9rem;
+}
+
+footer hr {
+  border: 0;
+  border-top: 1px solid #f5f5f5;
+  margin: 20px 0;
+}
+.btn-close{
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+}
+.modal-content{
+  background-color: rgb(48, 44, 44);
+  color:#f84464;
+  border:1px solid #f5f5f5;
+}
+#ticketCount{
+  color:#f84464;
+  font-weight: 600;
+}
