@@ -84,7 +84,7 @@ const movies = [
       genre: "Action, Adventure, Children",
       imdb: "6.8/10",
       about:"Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. The battle for Pride Rock is soon ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. Now, with help from a curious pair of newfound friends, Simba must figure out how to grow up and take back what is rightfully his. ",
-      image: "images/Lion King.jpg",
+      image: "images/Lion.jpg",
       showtime: "05:30PM",
       seats: 5,
       theater: "IMAX",
